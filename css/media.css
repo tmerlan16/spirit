@@ -13,26 +13,57 @@
     .burger-menu_button{
         display: block;
     }
+    .burger-menu{
+        display: block;
+    }
+    /*#########hero#############*/
+        .slick-btn{
+            margin-top: 30%;
+        }
+    /*#########hero#############*/
+    /*#########hAbout-Us#############*/
     .mac-img{
         width: 800px;
         height: 500px;
     }
-    .burger-menu{
-        display: block;
-    }
 
+    /*#########hAbout-Us#############*/
+
+    .clients-list {
+        display: block;
+        text-align: center;
+    }
+    .clients-list li{
+        padding-top: 20px;
+    }
 
 }
 @media (max-width: 776px) {
-
     .titles{
         font-size: 38px;
     }
-    .mac-img {
-        width: 500px;
-        height: 400px;
+    .tabs label {
+        float: left;
     }
+    /*###############Hero#############3*/
+    .hero-title{
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    .hero-description{
+        font-size: 18px;
+    }
+    .slick-btn{
+        margin-top: 50%;
+    }
+    /*###############Hero#############3*/
 
+
+    /*###############about-us#############3*/
+    .mac-img {
+        width: 557px;
+        height: 402px;
+    }
     .About-Us__subtitle {
         font-size: 18px;
         margin-left: 20px;
@@ -52,13 +83,91 @@
         font-size: 16px;
         margin-left: 20px;
     }
+    .btn{
 
-}
-@media (max-width: 586px){
-    .col-md-12{
-        width: 100%;
+        margin: 10px 20px;
     }
+
+    /*###############about-us#############3*/
+}
+@media (max-width: 576px){
     .titles{
         font-size: 30px;
+    }
+    .tabs label {
+        float: left;
+    }
+    /*###############Hero#############3*/
+
+    .hero-title{
+        font-size: 30px;
+        margin-top: -70px;
+    }
+    .hero-description{
+        font-size: 16px;
+    }
+    .slick-btn{
+        margin-top: 60%;
+    }
+
+    /*###############Hero#############3*/
+    /*###############about-us#############3*/
+    .mac-img {
+        width: 343px;
+        height: 288px;
+    }
+    .About-Us__subtitle {
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .About-Us__title {
+        font-size: 22px;
+        margin-left: 0;
+    }
+    .About-Us__title_description {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .About-Us__list {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .btn{
+
+        margin: 10px auto;
+    }
+
+
+    /*###############about-us#############3*/
+    /*###############our-team#############3*/
+    .Our-team_title {
+        font-size: 18px;
+    }
+    .Our-team_subtitle {
+        font-size: 13px;
+    }
+    .Our-team_img{
+        width: 100px;
+        height: 100px;
+    }
+        /*###############our-team#############3*/
+        /*###############our-services#############3*/
+    .services_description{
+        font-size: 13px;
+    }
+    .services_title{
+        font-size: 20px;
+    }
+    .services__title_description{
+        font-size: 12px;
+    }
+        /*###############our-services#############3*/
+    .footer-title {
+        font-size: 11px;
+    }
+    .footer-items{
+        width: 26px;
+        height: 26px;
+
     }
 }
